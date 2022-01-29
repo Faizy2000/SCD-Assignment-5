@@ -15,12 +15,13 @@ namespace Queuecollection
 		{
 
 			Queue<string> strQ = new Queue<string>();
-			strQ.Enqueue("F");
+			strQ.Enqueue("M");
+			strQ.Enqueue("u");
+			strQ.Enqueue("s");
+			strQ.Enqueue("t");
 			strQ.Enqueue("a");
-			strQ.Enqueue("i");
-			strQ.Enqueue("z");
+			strQ.Enqueue("f");
 			strQ.Enqueue("a");
-			strQ.Enqueue("n");
 
 			Console.WriteLine("Total elements: {0}", strQ.Count);
 
@@ -36,13 +37,13 @@ namespace Queuecollection
 			Console.WriteLine("  ");
 			Console.WriteLine("  ");
 			Console.WriteLine(" THIS IS PEEK METHOD ");
-
-			strQ.Enqueue("F");
+            strQ.Enqueue("M");
+			strQ.Enqueue("u");
+			strQ.Enqueue("s");
+			strQ.Enqueue("t");
 			strQ.Enqueue("a");
-			strQ.Enqueue("i");
-			strQ.Enqueue("z");
+			strQ.Enqueue("f");
 			strQ.Enqueue("a");
-			strQ.Enqueue("n");
 
 			Console.WriteLine("Total elements: {0}", strQ.Count); 
 			if (strQ.Count > 0)
